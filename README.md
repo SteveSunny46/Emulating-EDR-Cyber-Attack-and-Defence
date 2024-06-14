@@ -59,12 +59,12 @@ From here the adversary's machine can easily look through the user's host inform
 
 Note: 
 - 'rphcp.exe' is LimaCharlie EDR's executable service.
-- Sliver will cleverly highlight their payload/files in green when you look through the machine. 
+- Sliver will cleverly highlight their corresponding payloads/connections/files in green when you look through the machine. 
 ![9  Get information](https://github.com/SteveSunny46/Emulating-EDR-Cyber-Attack-and-Defence/assets/171859383/c65f665f-afd6-45cf-8a16-29827a13f8d6)
 ![9  netstat and see the established connection in green](https://github.com/SteveSunny46/Emulating-EDR-Cyber-Attack-and-Defence/assets/171859383/e97213be-9b0d-42a0-96cf-bcecd7cf7b4d)
 
 
-### See attacker's telemetry on LimaCharlie
+### See the attacker's telemetry on LimaCharlie
 
 On LimaCharlie, I am able to see the processes running and even see the payload itself within the processes.
 
