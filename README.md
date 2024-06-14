@@ -101,7 +101,7 @@ We can now create a rule for this to be able to send a detection alert on the ED
 ![13  rule added to edr](https://github.com/SteveSunny46/Emulating-EDR-Cyber-Attack-and-Defence/assets/171859383/526fe383-7522-4be2-adb3-83a06b78fa20)
 ![15  rule works](https://github.com/SteveSunny46/Emulating-EDR-Cyber-Attack-and-Defence/assets/171859383/61940ce5-7f8c-4ae7-959b-bccb45962528)
 
-### Block an attack via LimaCharlie
+### Block an attack using LimaCharlie
 
 Instead of just detecting an attack we will be detecting and blocking the attack from the adversary. In this part of the simulation, we will use the Sliver server to simulate a part of a ransomware attack where the attacker would attempt to delete the Volume Shadow Copies. Once we view the telemetry on LimaCharlie we can create the rule to detect and block the attack. Thus, the attacker will not be able to succeed in the attack again. 
 
